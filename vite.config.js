@@ -12,6 +12,7 @@ export default defineConfig({
     tailwindcss(),
     
   ],
+  base: '/maimbo-portfolio/', 
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

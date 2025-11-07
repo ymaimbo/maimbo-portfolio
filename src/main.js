@@ -9,7 +9,7 @@ import Home from './view/Home.vue'
 
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes:[
         {path: '/', name: 'Home', component:Home},
         {path: '/about', name: 'About', component: () => import('./view/About.vue')},
