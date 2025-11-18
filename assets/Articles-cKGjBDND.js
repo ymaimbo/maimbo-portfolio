@@ -1,1 +1,0 @@
-import{f as r,c as t,a as s,o as c}from"./index-C0fjJog8.js";const n={};function o(a,e){return c(),t("div",null,[...e[0]||(e[0]=[s("h1",null,"Articles Page",-1)])])}const f=r(n,[["render",o]]);export{f as default};
