@@ -26,6 +26,6 @@ export default defineConfig({
     },
   },
 
-  base: import.meta.env.PROD ?'/maimbo-portfolio/':'/'
+  base: '/maimbo-portfolio/'
 })
 
