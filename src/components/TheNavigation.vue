@@ -15,20 +15,20 @@
           </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-          <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-3xl font-semibold text-white">{{ item.name }}</a>
+          <router-link v-for="item in navigation" :key="item.name" :href="item.href" class="text-3xl font-semibold text-white">{{ item.name }}></router-link>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="/" class="text-sm/6 font-semibold text-white"> <span aria-hidden="true">&rarr;</span></a>
+          <router-link href="/" class="text-sm/6 font-semibold text-white"> <span aria-hidden="true">&rarr;</span> ></router-link>
         </div>
       </nav>
       <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
         <div class="fixed inset-0 z-50"></div>
         <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
           <div class="flex items-center justify-between">
-            <a href="#" class="-m-1.5 p-1.5">
+            <router-link href="/" class="-m-1.5 p-1.5">
               <span class="sr-only">Your Company</span>
               <img class="h-8 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="" />
-            </a>
+            ></router-link>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-200" @click="mobileMenuOpen = false">
               <span class="sr-only">Close menu</span>
               <XMarkIcon class="size-6" aria-hidden="true" />
