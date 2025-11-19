@@ -1,1 +1,0 @@
-import{i as o,c as n,a as r,o as t}from"./index-p1pbrnEw.js";const a={};function s(c,e){return t(),n("div",null,[...e[0]||(e[0]=[r("h1",null,"Now Page",-1)])])}const f=o(a,[["render",s]]);export{f as default};

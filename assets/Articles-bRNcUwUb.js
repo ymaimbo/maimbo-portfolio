@@ -1,1 +1,0 @@
-import{i as r,c as t,a as s,o as c}from"./index-p1pbrnEw.js";const n={};function o(a,e){return c(),t("div",null,[...e[0]||(e[0]=[s("h1",null,"Articles Page",-1)])])}const i=r(n,[["render",o]]);export{i as default};
