@@ -150,7 +150,7 @@ const posts = [
     href: 'https://ymaimbo.github.io/maimbo-portfolio/', // External
     isInternal: false, // Mark as external
     date: 'Octomber 10, 2025',
-    description: 'An exmple of portfolio which can show case your skills',
+    description: 'An example of portfolio which can show case your skills',
     category: {
       title: 'Portfolio',
       href: '/projects/web-dev', // Internal route
